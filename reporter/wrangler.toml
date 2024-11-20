@@ -1,0 +1,129 @@
+main = "src/index.js"
+name = "csp-reporter"
+compatibility_date = "2024-09-14"
+account_id = "1029489f34972e437b199171229fed48"
+
+[[d1_databases]]
+binding = "CSP_REPORTS" # This should match what you're using in the Worker script (env.DB)
+database_name = "csp-report"
+database_id = "26001b50-4440-4ad3-8b35-18337c2b70a0" # Ensure this is the correct ID for your D1 database
+
+[placement]
+mode = "smart"
+
+[observability]
+enabled = true
+
+# Route list should match Reporter worker
+
+[[routes]]
+pattern = "b8a.me/csp"
+zone_id = "d29361a8f2647587a46785e2a1fc0aa3"
+
+[[routes]]
+pattern = "baindayman.com/csp"
+zone_id = "5f4672ccabd5d897b2fbeb43b0c550cb"
+
+[[routes]]
+pattern = "csp-tool.com/csp"
+zone_id = "c069c774b6ddcd8de26d8a694805452e"
+
+[[routes]]
+pattern = "duckrain.com/csp"
+zone_id = "faab4c2b636658861bdc2c88ff3aa701"
+
+[[routes]]
+pattern = "dayman.net/csp"
+zone_id = "53ba1f22e59cc0f57e99318b3e1aa85e"
+
+[[routes]]
+pattern = "eewna.org/csp"
+zone_id = "194b3e9e2f0aaeb1151ab2fdf3a2c403"
+
+[[routes]]
+pattern = "honeyfungus.com/csp"
+zone_id = "1abb4d6e7e87aa3fd4f5896dafe83298"
+
+[[routes]]
+pattern = "integrityokc.com/csp"
+zone_id = "a69f3f31dae3f4dd71f273e2ae7d60bb"
+
+[[routes]]
+pattern = "sales.integrityokc.com/csp"
+zone_id = "a69f3f31dae3f4dd71f273e2ae7d60bb"
+
+[[routes]]
+pattern = "katrina.st/csp"
+zone_id = "168d2e20b377c7aee71a0042340173f7"
+
+[[routes]]
+pattern = "kay.la/csp"
+zone_id = "940185629fbb00e1514c784c89aff9a8"
+
+[[routes]]
+pattern = "kayla.st/csp"
+zone_id = "b297aa0078e52cc877260998fa04d711"
+
+[[routes]]
+pattern = "kayladayman.com/csp"
+zone_id = "44027ed91f94c6b3045053f3e7ab2903"
+
+[[routes]]
+pattern = "locker.plus/csp"
+zone_id = "fe0c91bfc3cb397f11944f25888e932b"
+
+[[routes]]
+pattern = "mail180.com/csp"
+zone_id = "429ea03fa505e43997118d26c4b4aee3"
+
+[[routes]]
+pattern = "mauicharm.com/csp"
+zone_id = "113d0e30f47345dfcf5ff50f2b4f71ae"
+
+[[routes]]
+pattern = "molokaibreeze.com/csp"
+zone_id = "0093140508ebff4c524976fc11c9284d"
+
+[[routes]]
+pattern = "mwba.org/csp"
+zone_id = "e2ee81fa770c232a2d74e593b3a8693f"
+
+[[routes]]
+pattern = "myluckysock.com/csp"
+zone_id = "923af0c4400c4a44e35fc0ee08da38b3"
+
+[[routes]]
+pattern = "notrid.com/csp"
+zone_id = "37882a83530e7dfe6debc0c41ac3691c"
+
+[[routes]]
+pattern = "okchousebuyer.com/csp"
+zone_id = "2509945f168c024fefc5809ef603e9a1"
+
+[[routes]]
+pattern = "pasadenapooch.org/csp"
+zone_id = "ebc128900d327231f1961f1b90c782fb"
+
+[[routes]]
+pattern = "pmbc.org/csp"
+zone_id = "5d6d29de8d12f843c532e0aa26508e67"
+
+[[routes]]
+pattern = "ryan.cafe/csp"
+zone_id = "4126fb3949c80b722906dd7fd289ab6c"
+
+[[routes]]
+pattern = "scottdayman.com/csp"
+zone_id = "df00e9b45e41e314d819c8860e004c29"
+
+[[routes]]
+pattern = "scott.st/csp"
+zone_id = "12a6ea0b9c36fd18784902f50f7b2428"
+
+[[routes]]
+pattern = "scott.today/csp"
+zone_id = "2c88edf070be86c6a730d6b755dd17ce"
+
+[[routes]]
+pattern = "sdayman.com/csp"
+zone_id = "4b81f76a715ff3ae48819348e0eb5eb5"

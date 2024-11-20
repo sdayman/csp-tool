@@ -1,0 +1,15 @@
+main = "src/index.js"
+name = "csp-tool"
+compatibility_date = "2024-09-14"
+account_id = "1029489f34972e437b199171229fed48"
+
+[[d1_databases]]
+binding = "CSP_REPORTS" # This should match what you're using in the Worker script (env.DB)
+database_name = "csp-report"
+database_id = "26001b50-4440-4ad3-8b35-18337c2b70a0" # Ensure this is the correct ID for your D1 database
+
+[placement]
+mode = "smart"
+
+[observability]
+enabled = true
