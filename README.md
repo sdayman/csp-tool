@@ -10,7 +10,7 @@ To implement CSP reporting with Cloudflare Workers, you'll need the following co
 
 - **D1 Database**
 - **Intake Worker** bound to D1
-- **Report Tool** bound to D1
+- **Report Worker** bound to D1
 - **CSP Response Header**
 
 ---
