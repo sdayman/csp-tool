@@ -37,15 +37,17 @@ CREATE TABLE new_csp_reports (
 
 ---
 
-## Intake Worker
+## Reporter Intake Worker
 
-(coming soon)
+This is the Worker that accepts the CSP reports submitted by browsers.
+(setup details coming soon)
 
 ---
 
-## Report Tool
+## Report Tool Worker
 
-(coming soon)
+This is the Worker that queries the database and returns CSV reports.
+(setup details coming soon)
 
 ---
 
