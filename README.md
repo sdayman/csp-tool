@@ -1,6 +1,6 @@
 # CSP Reporting with Cloudflare Workers
 
-The inspiration for this was [Report URI](https://report-uri.com), which is a fantastic service I used for many years. That service now offers many more features, but I only wanted CSP reporting and wanted to create something with Cloudflare Workers. I documented my process [in this blog post](https://scottdayman.com/csp-reports-with-workers/).
+The inspiration for this was [Report URI](https://report-uri.com), which is a fantastic service I used for many years. That service now offers many more features, but I only wanted CSP reporting and wanted to create something with Cloudflare Workers. I documented my process in [this blog post](https://scottdayman.com/csp-reports-with-workers/).
 
 ---
 
