@@ -17,10 +17,10 @@ To implement CSP reporting with Cloudflare Workers, you'll need the following co
 
 ## D1 Database Setup
 
-Use the following SQL command to set up the `new_csp_reports` table in your D1 database:
+Use the following SQL command to set up the `csp_reports` table in your D1 database:
 
 ```
-CREATE TABLE new_csp_reports (
+CREATE TABLE csp_reports (
   hostname TEXT NOT NULL,
   document_uri TEXT NOT NULL,
   blocked_uri TEXT NOT NULL,
@@ -37,14 +37,14 @@ CREATE TABLE new_csp_reports (
 
 ---
 
-## Reporter Intake Worker
+## Intake Worker
 
-This is the Worker that accepts the CSP reports submitted by browsers.
+This is the Worker that accepts the CSP violations submitted by browsers.
 (setup details coming soon)
 
 ---
 
-## Report Tool Worker
+## Report Worker
 
 This is the Worker that queries the database and returns CSV reports.
 (setup details coming soon)

@@ -5,7 +5,7 @@ account_id = "ACCOUNT_ID" # Ensure this is the correct ID for your account
 
 [[d1_databases]]
 binding = "CSP_REPORTS" # This should match what you're using in the Worker script (env.CSP_REPORTS)
-database_name = "csp-report"
+database_name = "csp-tool"
 database_id = "DATABASE_ID" # Ensure this is the correct ID for your D1 database
 
 [placement]
@@ -13,9 +13,3 @@ mode = "smart"
 
 [observability]
 enabled = true
-
-# Route list should match Reporter worker
-
-[[routes]]
-pattern = "example.com/csp"
-zone_id = "ZONE_ID" # Ensure this is the correct ID for your CSP Zone
