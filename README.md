@@ -1,12 +1,6 @@
 # CSP Reporting with Cloudflare Workers
 
-The inspiration for this was [Report URI](https://report-uri.com), which is a fantastic service I used for many years. That service now offers many more features, but I only wanted CSP reporting and wanted to create something with Cloudflare Workers. I documented my process here:  
-[https://scottdayman.com/csp-reports-with-workers/](https://scottdayman.com/csp-reports-with-workers/)
-
----
-
-## Setup Instructions
-*(coming soon)*
+The inspiration for this was [Report URI](https://report-uri.com), which is a fantastic service I used for many years. That service now offers many more features, but I only wanted CSP reporting and wanted to create something with Cloudflare Workers. I documented my process [in this blog post](https://scottdayman.com/csp-reports-with-workers/).
 
 ---
 
@@ -40,3 +34,23 @@ CREATE TABLE new_csp_reports (
   report_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
+
+---
+
+## Intake Worker
+
+(coming soon)
+
+---
+
+## Report Tool
+
+(coming soon)
+
+---
+
+## CSP Response Header
+
+Start with the most restrictive policy in Report-Only mode to gather data:
+
+`content-security-policy-report-only: default-src 'none';report-uri https://example.com/csp`
