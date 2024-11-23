@@ -39,14 +39,14 @@ CREATE TABLE csp_reports (
 
 ## Intake Worker
 
-This is the Worker that accepts the CSP violations submitted by browsers.
+This is the Worker that accepts the CSP violations submitted by browsers.  
 (setup details coming soon)
 
 ---
 
 ## Report Worker
 
-This is the Worker that queries the database and returns CSV reports.
+This is the Worker that queries the database and returns CSV reports.  
 (setup details coming soon)
 
 ---
