@@ -13,3 +13,10 @@ mode = "smart"
 
 [observability]
 enabled = true
+
+# Explicitly disable workers.dev
+workers_dev = false
+
+[[routes]]
+pattern = "report.example.com"
+custom_domain = true

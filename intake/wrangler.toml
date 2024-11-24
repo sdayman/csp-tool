@@ -14,7 +14,14 @@ mode = "smart"
 [observability]
 enabled = true
 
+# Explicitly disable workers.dev
+workers_dev = false
+
 # Route list should match Reporter worker
+
+[[routes]]
+pattern = "example.com/csp"
+zone_id = "ZONE_ID" # Ensure this is the correct ID for your CSP Zone
 
 [[routes]]
 pattern = "example.com/csp"

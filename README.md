@@ -40,14 +40,20 @@ CREATE TABLE csp_reports (
 ## Intake Worker
 
 This is the Worker that accepts the CSP violations submitted by browsers.  
-(setup details coming soon)
+
+- Edit wrangler.toml as needed with the correct ACCOUNT_ID and DATABASE_ID.
+- Add enough Routes blocks for all the websites' CSP Report URLs you use in the CSP header described below.
+- Disable the workers.dev route 
 
 ---
 
 ## Report Worker
 
-This is the Worker that queries the database and returns CSV reports.  
-(setup details coming soon)
+This is the Worker that queries the database and returns CSV reports. Because this Worker provides access to your CSP Reports, be sure it is protected.  
+
+- Edit wrangler.toml as needed with the correct ACCOUNT_ID and DATABASE_ID.
+- Be especially sure this Worker is disabled on workers.dev
+- The end of the wrangler.toml file has the custom domain for accessing all CSP reports. Be sure to protect this with Access, or a Firewall Rule that blocks all requests not from your IP address, or whichever method choose to restrict access.
 
 ---
 
